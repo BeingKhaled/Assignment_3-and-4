@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <title>Data Collection - GIC</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="{{ url_for('static', filename='ug-keyline-large.svg') }}" alt="logo" width="220" height="100">
+        <h1>Student Feedback Questionnaire</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('information') }}">Information</a></li>
+                <li><a href="{{ url_for('data_collection') }}">Data-Collection</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Form Section -->
+    <form method="POST">
+        <!-- Identification Section -->
+        <fieldset>
+            {{ form.name.label }}<br> <!-- Label for name input -->
+            {{ form.name }}<br><br> <!-- Input field for name -->
+
+            {{ form.student_number.label }}<br> <!-- Label for student number input -->
+            {{ form.student_number}}<br><br> <!-- Input field for student number -->
+
+            {{ form.email.label }}<br> <!-- Label for email input -->
+            {{ form.email}}<br><br> <!-- Input field for email -->
+        </fieldset>
+
+        <!-- Academic Progress Section -->
+        <fieldset>
+            <legend>Academic Progress</legend>
+
+            <!-- Grades Obtained -->
+            {{ form.grades.label }}<br> <!-- Label for grades input -->
+            {{ form.grades}}<br><br> <!-- Input field for grades -->
+
+            <!-- Overall Satisfaction -->
+            {{ form.satisfaction.label }}<br> <!-- Label for satisfaction input -->
+            {{ form.satisfaction}}<br><br> <!-- Input field for satisfaction -->
+
+            <!-- Suggestions for Improvement -->
+            {{ form.suggestions.label }}<br> <!-- Label for improvement input -->
+            {{ form.suggestions}}<br><br> <!-- Input field for improvement -->
+        </fieldset>
+
+        <!-- Submit Button -->
+    <input class="button" type="submit" value="Submit">
+    {{ form.submit }}<br> <!-- Submit button -->
+</form>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Glasgow International College. All rights reserved.</p>
+    </footer>
+</body>
+</html>
