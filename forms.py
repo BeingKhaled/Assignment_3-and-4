@@ -2,7 +2,6 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SelectField, TextAreaField, SubmitField
 from wtforms.validators import InputRequired, Email
 
-
 class DataCollectionForm(FlaskForm):
     name = StringField('Name', validators=[InputRequired()])
     student_number = StringField('Student Number', validators=[InputRequired()])
