@@ -25,5 +25,5 @@ def data_collection():
     return render_template('data_collection.html', form=form)  # Rendering the data collection form template
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8000)
+    app.run(debug=True)
 
