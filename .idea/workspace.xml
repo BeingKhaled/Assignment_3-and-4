@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e36700c-55a3-472f-8087-975211a05efc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/ug-keyline-large.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/data_collection.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/data_collection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/information.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/information.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710977779888</updated>
-      <workItem from="1710977806439" duration="1786000" />
+      <workItem from="1710977806439" duration="3231000" />
     </task>
     <servers />
   </component>
